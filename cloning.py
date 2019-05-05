@@ -74,6 +74,6 @@ class YC:
                     continue
             except KeyError:
                 continue
-idt = raw_input(str("\033[39m[\033[31m*\033[39m] Email   : "))
-passw = raw_input(str("\033[39m[\033[31m*\033[39m] Password: "))
+idt = input(str("\033[39m[\033[31m*\033[39m] Email   : "))
+passw = input(str("\033[39m[\033[31m*\033[39m] Password: "))
 YC(idt, passw)
